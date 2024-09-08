@@ -1,0 +1,324 @@
+.nav_div{
+    /*background-color:#9deb0c;*/    
+    padding: 1em;
+    border-radius: 0.5em;
+    color: white;
+}
+
+/* change*/
+.nav_a{
+    padding-right: 5vw;
+    color: white;
+    text-decoration: none;
+    font-size:1.5em ;
+}
+
+.body{
+    
+    margin: auto;
+    padding-top: 2.5em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-image: url("../img/loop.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.nav_pad{
+    padding-left: 1em;
+    color: #fff;
+}
+
+#h1_pad{
+   padding-left: 0.5em; 
+}
+
+
+
+.h1_welcome{
+    color: rgb(23, 51, 212); 
+    font-size: 70px;
+    padding-top: 20vh;
+}
+
+#my_name{
+    color: #fff;
+}
+
+#footer{
+   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #03fcfc ;
+    font-size: 1.3em;
+}
+
+#footer_div{
+    padding-top: 5em;
+}
+
+#table_id{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_logo{
+    padding: 50px ; 
+}
+
+#handle_id{
+    padding-right: 20px;
+}
+
+.body_about{
+     text-align: center;
+     background-image: url(../img/tornado.jpg);
+    }
+
+.nav_about{
+    background-color: #748dfd52;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    /*padding:0.1em;*/
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+}
+
+.div1_about{
+    float: left;    
+
+}
+
+.div2_about{
+    margin-left: 5px;
+    padding-top: 6.2em;
+    color: #283320;
+}
+
+#BLACKBOY_img{
+    height:100vh
+} 
+
+#about_p{
+     font-size: 3em;
+     text-align: center;
+}
+
+#about_details{
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.body_project{
+    text-align: center;
+}
+
+
+.row{
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    margin-top: 8em;
+}
+
+.project_info{
+    color: #fff;
+    background-image: url(../img/Tsunami.avif);
+}
+
+.column2{
+    float: left;
+    width: 33.33%;
+    margin-top: 1.5em;
+}
+
+#MyVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nav_game{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    /*padding:0.1em;*/
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+}
+
+#top_games{
+    position: fixed;
+    top: 45%;
+    width: 100%;
+    color: blue;
+    font-size: 50px;
+
+}
+#my_games{
+    color: #fff;
+}
+
+#my_grove{
+    color: #fff;
+}
+
+#footer_game{
+   
+    position: fixed;
+    bottom: 2%;
+    width: 100%;
+    color: #f6f8f8 ;
+    font-size: 1.3em;
+}
+
+.games_link{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+#my_sur{
+    color: #fff;
+}
+
+.h1_welcome2{
+    color: #3734eb;
+}
+
+
+
+#my_work{
+    color: #fff;
+}
+
+#my_help{
+    color: #fff;
+}
+
+/* padding: top right bottom left*/
+
+.form_text{
+
+    font-size: 15px;
+    margin-bottom: 10px;
+    resize: none;
+} 
+#form{
+    position: fixed;
+    top: 30%;
+    width: 100%;
+    color: white;   
+}
+
+#submit_button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 200px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+#copyright{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: #faf7f7;
+}
+
+.topnav {
+    /*overflow:invisible; */
+    display: none;
+    position: relative;
+    background-color:  #d7fc06;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .icon_back{
+    color: #127ab3 !important;
+    width: 180px;
+  }
+
+  .topnav2{
+    background-color: #75fd06;
+  }
+
+ .icon_bar{
+    color: #fd0303 !important;
+ }
+
+@media screen and (max-width:890px){
+    .topnav {
+        display: block;
+    }
+    
+    .nav_div{
+        display: none;
+    } 
+    .nav_about{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+    #BLACKBOY_img{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav_game{
+        display: none;
+    }
+}
+
+#my_rec{
+    color:    #75fd06;
+}
+
+#my_file{
+    color:    #75fd06;
+}
+
+.h1_welcome{
+    #my_item{
+       color: #75fd06;
+    }
+}
